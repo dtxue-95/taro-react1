@@ -1,0 +1,43 @@
+.container {
+  padding: 8px;
+}
+
+.user-info {
+  margin-top: 50px;
+  height: 200px;
+  width: 200%;
+  display: flex;
+
+  .avatar {
+    margin-left: 50px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-size: 20px;
+    border: #facb2c solid 2px;
+  }
+
+  .nickname {
+    margin-left: 8px;
+    line-height: 100px;
+  }
+
+}
+
+.login-btn {
+  margin-left: 50px;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border: gray solid 2px;
+
+  .btn {
+    line-height: 150px;
+    width: 150px;
+    height: 150px;
+    border: none;
+  }
+}
+

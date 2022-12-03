@@ -1,0 +1,58 @@
+.container {
+  margin: 0 auto;
+  width: 100%;
+  position: absolute;
+
+  .img {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .btn-list {
+    z-index: 9999;
+    border-radius: 8px;
+    display: flex;
+    background-color: black;
+    left: 18px;
+    right: 18px;
+    position: fixed;
+    justify-content: space-around;
+    justify-items: baseline;
+    text-align: center;
+
+    .btn-icon {
+      background-color: black;
+      flex: 1;
+      margin: 0 6px;
+      color: white;
+    }
+  }
+}
+
+.pic-list {
+  margin-top: 18px;
+
+  .pic-item {
+    display: inline-block;
+    width: 33%;
+    height: 430px;
+    overflow: hidden;
+    text-align: center;
+    margin: 16px auto;
+
+
+    &:nth-child(even) .img {
+      background-color: #FF00FF;
+    }
+
+    &:nth-child(odd) .img {
+      background: linear-gradient(left, #5499f5, #6e74f7);
+    }
+
+    .img {
+      margin: 6px;
+      width: 100%;
+      border-radius: 3%;
+    }
+  }
+}

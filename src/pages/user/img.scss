@@ -1,0 +1,27 @@
+.pic-list {
+  margin-top: 18px;
+
+  .pic-item {
+    display: inline-block;
+    width: 33%;
+    height: 430px;
+    overflow: hidden;
+    text-align: center;
+    margin: 16px auto;
+
+
+    &:nth-child(even) .img {
+      background-color: #FF00FF;
+    }
+
+    &:nth-child(odd) .img {
+      background: linear-gradient(left, #5499f5, #6e74f7);
+    }
+
+    .img {
+      margin: 6px;
+      width: 100%;
+      border-radius: 3%;
+    }
+  }
+}
